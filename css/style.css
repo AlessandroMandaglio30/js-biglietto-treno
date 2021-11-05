@@ -1,0 +1,24 @@
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: lightgreen;
+    margin-top: 20px;
+  }
+
+.prezzo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .prezzo h2, h3{
+    margin-left: 10px;
+    text-align: center;
+  }
+
+  body {
+    height: 100vh;
+    background: url(https://media.internazionale.it/images/2017/10/27/140245-md.jpg);
+    background-size: cover;
+  }
