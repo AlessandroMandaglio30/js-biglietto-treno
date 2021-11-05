@@ -1,8 +1,13 @@
 
 // variabili
 let kmDaPercorrere = prompt('Quanti km devi percorrere?');
+if (isNaN(kmDaPercorrere)){
+  kmDaPercorrere = prompt('Inserisci un numero valido');
+}
 let etaPasseggero = prompt('Quanti anni hai?');
-
+if (isNaN(etaPasseggero)){
+  etaPasseggero = prompt('Inserisci un numero valido');
+}
 // prezzotratta
 let prezzoTratta = kmDaPercorrere * 0.21;
 let sconto;
